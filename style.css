@@ -27,6 +27,10 @@ nav{
     border-bottom: 2px solid #dddddd;
 }
 
+.navbar-toggler{
+    margin-right: 20px;
+}
+
 #navbarwidth{
     max-width: 960px;
     margin: 0 auto;
@@ -39,7 +43,7 @@ nav{
     padding: 5px 16px;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     max-width: 960px;
 }
 
