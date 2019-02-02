@@ -12,8 +12,7 @@ h1 {
 
 ul {
     list-style: none;
-    display: inline-flex;
-    float: right;
+    color: #777777;
     margin-bottom: 0;
 }
 
@@ -21,14 +20,11 @@ nav{
     margin: 0px;
 }
 
+
 .navwidth{
     width: 100%;
     background-color: #ffffff;
     border-bottom: 2px solid #dddddd;
-}
-
-.navbar-toggler{
-    margin-right: 20px;
 }
 
 #navbarwidth{
@@ -50,8 +46,13 @@ nav{
 #myname{
     background-color: #4aaaa5;
     width: 1/3%;
-    position: relative;
-    top: 0;
+}
+
+@media screen and (max-width: 680px) {
+    #myname{ 
+    width: 100%;
+    text-align: center;
+    }
 }
 
 .row{
